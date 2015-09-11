@@ -1,0 +1,16 @@
+{
+  "name": "express-static",
+  "version": "1.0.0",
+  "description": "Stupidly simple static web server template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Joerg Henning \"henning.joerg@gmail.com\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
