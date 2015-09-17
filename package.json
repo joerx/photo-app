@@ -10,7 +10,9 @@
   "author": "Joerg Henning \"henning.joerg@gmail.com\"",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.14.0",
     "express": "^4.13.3",
+    "moment": "^2.10.6",
     "morgan": "^1.6.1"
   }
 }

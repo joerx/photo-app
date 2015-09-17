@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <title>Photo capture app</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="./fb-login.js"></script>
+  <script src="./take-photo.js"></script>
+
+  <script>
+    onFacebookLogin(function() {
+      initPhotoApp();
+    });
+  </script>
+
+</head>
+<body>
+
+  <h1>Take a Shot!</h1>
+  
+  <div id="fb-login">
+    <p id="fb-login-status">
+    </p>
+    <p>
+      <button id="fb-login-button">Login with Facebook</button>
+    </p>
+  </div>
+
+  <div id="photo-app" style="display:none">
+
+    <div class="camera">
+      <video id="video">Video is n/a</video>
+    </div>
+    <div class="output">
+      <img id="photo" alt="Your face will be here">
+    </div>
+    <div class="controls">
+      <button id="start">Take Photo</button>
+      <button id="click-click">Auto</button>
+    </div>
+
+    <div class="footer">
+      <p>WebRTC photo capturing demo. Blatantly copied from 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos">
+          https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos
+        </a> 
+      </p>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+  </div>
+
+</body>
+</html>

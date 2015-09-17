@@ -1,0 +1,43 @@
+#video {
+  border: 1px solid black;
+  width:320px;
+  height:240px;
+}
+
+#photo {
+  border: 1px solid black;
+  width:320px;
+  height:240px;
+}
+
+#canvas {
+  display:none;
+}
+
+.camera {
+  width: 340px;
+  display:inline-block;
+}
+
+.output {
+  width: 340px;
+  display:inline-block;
+}
+
+.footer {
+  font-size: small;
+}
+
+#start {
+  width: 150px;
+  font-size: large;
+  color: white;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.contentarea {
+  font-size: 16px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  width: 760px;
+}

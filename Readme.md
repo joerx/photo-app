@@ -1,16 +1,12 @@
 # About 
 
-Simple development server in Express.js to serve static files. It's simpler than setting up 
-Apache2 or Nginx on some platforms. Strictly not for production usage!
+Playing with `getUserMedia`, the Facebook JS SDK and some express-based backend stuff. Frontend 
+code is mostly [VanillaJS](http://vanilla-js.com/) 
 
 # Requirements
 
-Node 4.0.0
+Node 0.12, NPM
 
 # Usage
 
-Put your static content into the `/public` folder, then `npm install && npm start`.
-
-# Testing
-
-`exit(1)`
+Start server using `npm start`, direct browser to [localhost:3000](http://localhost:3000), smile!
